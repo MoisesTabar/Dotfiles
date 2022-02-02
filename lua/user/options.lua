@@ -1,0 +1,22 @@
+o = vim.opt
+
+o.clipboard = "unnamedplus"
+o.cmdheight = 2
+o.ignorecase = true
+o.mouse = "a"
+o.showcmd = true
+o.showmode = false
+o.showtabline = 2
+o.smartindent = true
+o.smartcase = true
+o.swapfile = false
+o.splitright = true
+o.splitbelow = true
+o.number = true
+o.cursorline = true
+o.relativenumber = true
+o.wrap = false
+o.ruler = true
+o.laststatus = 2
+o.sw = 2
+o.guifont = "FuraCode Nerd Font:h12"
