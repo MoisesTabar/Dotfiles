@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim",
+    url = "https://github.com/ful1e5/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -213,6 +218,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
@@ -222,5 +232,6 @@ if should_profile then save_profiles() end
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end

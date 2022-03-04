@@ -5,3 +5,7 @@ if not status_ok then
   vim.notify("colorscheme " .. colorscheme .. " not found!")
   return
 end
+
+vim.g.transparent_background = false
+vim.g.italic_comments = false
+vim.g.italic_keywords = false

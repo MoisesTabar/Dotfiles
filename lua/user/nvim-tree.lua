@@ -13,12 +13,12 @@ vim.g.nvim_tree_icons = {
     ignored = "◌",
   },
   folder = {
-    default = "",
-    open = "",
+    default = "",
+    open = "",
     empty = "",
     empty_open = "",
     symlink = "",
-  },
+  }
 }
 
 local status_ok, nvim_tree = pcall(require, "nvim-tree")
@@ -72,7 +72,7 @@ nvim_tree.setup {
   view = {
     width = 30,
     height = 30,
-    hide_root_folder = false,
+    hide_root_folder = true,
     side = "left",
     auto_resize = true,
     mappings = {
@@ -80,11 +80,11 @@ nvim_tree.setup {
       list = {
         { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
         { key = "h", cb = tree_cb "close_node" },
-        { key = "v", cb = tree_cb "vsplit" },
+        { key = "s", cb = tree_cb "vsplit" },
       },
     },
     number = false,
-    relativenumber = false,
+    relativenumber = false
   },
   quit_on_open = 0,
   git_hl = 1,
@@ -96,5 +96,5 @@ nvim_tree.setup {
     files = 1,
     folder_arrows = 1,
     tree_width = 30,
-  },
+  }
 }

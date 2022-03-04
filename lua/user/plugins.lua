@@ -50,10 +50,12 @@ return packer.startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use "lukas-reineke/indent-blankline.nvim"
   use "akinsho/toggleterm.nvim"
+  use "christoomey/vim-tmux-navigator"
 
   -- Colorschemes
   use "lunarvim/colorschemes"
   use "lunarvim/darkplus.nvim"
+  use "ful1e5/onedark.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

@@ -1,4 +1,4 @@
-o = vim.opt
+local o = vim.opt
 
 o.clipboard = "unnamedplus"
 o.cmdheight = 2
