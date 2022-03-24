@@ -47,3 +47,5 @@ keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>fs", "<cmd>Telescope git_status<cr>", opts)
 keymap("n", "<leader>fc", "<cmd>Telescope colorscheme<cr>", opts)
 
+-- Renaming
+keymap("n", "<leader>r", "<cmd>:Lspsaga rename<cr>", opts)

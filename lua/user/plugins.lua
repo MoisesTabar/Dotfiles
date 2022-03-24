@@ -72,6 +72,8 @@ return packer.startup(function(use)
 
   -- LSP
   use "neovim/nvim-lspconfig"
+  use "jose-elias-alvarez/nvim-lsp-ts-utils"
+  use "tami5/lspsaga.nvim"
   use "williamboman/nvim-lsp-installer"
 
   -- Telescope

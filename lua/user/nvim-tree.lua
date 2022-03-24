@@ -37,6 +37,7 @@ nvim_tree.setup {
   disable_netrw = true,
   hijack_netrw = true,
   open_on_setup = false,
+  auto_reload_on_write = true,
   ignore_ft_on_setup = {
     "startify",
     "dashboard",
@@ -53,10 +54,10 @@ nvim_tree.setup {
   diagnostics = {
     enable = true,
     icons = {
-      hint = "",
-      info = "",
-      warning = "",
-      error = "",
+      hint = "",
+      info = "",
+      warning = "",
+      error = "",
     },
   },
   update_focused_file = {
@@ -74,7 +75,7 @@ nvim_tree.setup {
     height = 30,
     hide_root_folder = true,
     side = "left",
-    auto_resize = true,
+    auto_resize = false,
     mappings = {
       custom_only = false,
       list = {
@@ -95,6 +96,6 @@ nvim_tree.setup {
     folders = 1,
     files = 1,
     folder_arrows = 1,
-    tree_width = 30,
+    tree_width = 20,
   }
 }

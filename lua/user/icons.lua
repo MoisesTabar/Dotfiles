@@ -16,6 +16,12 @@ nvim_web_devicons.set_icon {
     cterm_color = "27",
     name = "Py",
   },
+  [".huskyrc"] = {
+    icon = "",
+    color = "#ffbc03",
+    cterm_color = "27",
+    name = "Huskyrc"
+  },
   ["js"] = {
     icon = "",
     color = "#dbce1d",
@@ -27,6 +33,24 @@ nvim_web_devicons.set_icon {
     color = "#0e6eeb",
     cterm_color = "67",
     name = "Ts",
+  },
+  ["tsconfig.json"] = {
+    icon = "ﯤ ",
+    color = "#0e6eeb",
+    cterm_color = "67",
+    name = "Ts",
+  },
+  [".eslintrc"] = {
+    icon = "ﬥ ",
+    color = "#4721cf",
+    cterm_color = "67",
+    name = "Json",
+  },
+  [".prettierc"] = {
+    icon = "ﬥ ",
+    color = "#cf21c9",
+    cterm_color = "67",
+    name = "Json",
   },
   ["jsx"] = {
     icon = "ﰆ ",
@@ -64,6 +88,24 @@ nvim_web_devicons.set_icon {
     cterm_color = "59",
     name = "Dockerfile",
   },
+  ["Dockerfile.dev"] = {
+    icon = "",
+    color = "#0398fc",
+    cterm_color = "59",
+    name = "Dockerfile",
+  },
+  ["docker-compose.yml"] = {
+    icon = "",
+    color = "#0398fc",
+    cterm_color = "59",
+    name = "DockerCompose",
+  },
+  ["docker-compose.prod.yml"] = {
+    icon = "",
+    color = "#0398fc",
+    cterm_color = "59",
+    name = "DockerCompose",
+  },
   [".dockerignore"] = {
     icon = "",
     color = "#0398fc",
@@ -99,6 +141,11 @@ nvim_web_devicons.set_icon {
     color = "#5cc942",
     cterm_color = "161",
     name = "NodeModules",
+  },
+  ['nodemon.json'] = {
+    icon = "",
+    color = "#5cc942",
+    name = "PackageJson"
   },
   ['package.json'] = {
     icon = "",
@@ -139,4 +186,9 @@ nvim_web_devicons.set_icon {
     cterm_color = "179",
     name = "License",
   },
+  ["routes"] = {
+    icon = "數",
+    color = "#12c742",
+    name = "Routes"
+  }
 } 

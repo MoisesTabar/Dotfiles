@@ -52,7 +52,7 @@ lualine.setup({
 		lualine_a = {
 		    { 'mode', right_padding = 2 },
 		},
-		lualine_b = { "filename", "branch", diagnostics },
+		lualine_b = { "branch", diagnostics },
 		lualine_c = {},
 		-- lualine_x = { "encoding", "fileformat", "filetype" },
 		lualine_x = { diff, spaces, "encoding", filetype },
